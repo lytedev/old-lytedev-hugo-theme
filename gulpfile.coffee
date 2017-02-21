@@ -22,6 +22,7 @@ cfg =
 		dest: distDir + '/'
 	templateLocals:
 		sitename: "lytedev"
+		logoPath: require
 
 gulp.task 'stylus', ->
 	gulp.src cfg.css.sources

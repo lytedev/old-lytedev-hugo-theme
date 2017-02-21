@@ -1,0 +1,12 @@
+header#site-header(class=siteHeaderClass)
+	include ./site-navigation.pug
+
+	#intro
+		.wrapper
+			block intro-text
+				h2 Hi, I'm Daniel!
+				p I'm a solo full-stack web developer specializing in beautiful and usable web experiences.
+
+			//- - var modifiedTemplateData = htmlWebpackPlugin;
+			//- - modifiedTemplateData.options.lytedevLedLogo = require('src/partials/led-math-for-logo.coffee')
+			//- != require('src/partials/logo.svg.pug')({ htmlWebpackPlugin: modifiedTemplateData })

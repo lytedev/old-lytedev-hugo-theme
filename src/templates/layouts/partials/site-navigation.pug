@@ -1,0 +1,14 @@
+nav#site-navigation
+  a#site-logo(href="/")
+    include ./logo.svg.pug
+
+  input#mobile-menu-toggle(type="checkbox" name="mobile-menu-toggle" tabindex="1")
+
+  label.btn#mobile-site-navigation-toggle(for="mobile-menu-toggle" data-close-label="Close Menu")
+    | Menu
+
+  ul#site-navigation-links
+    a.nav-link(href="/blog"): li Blog
+    a.nav-link(href="/projects"): li Projects
+    a.nav-link(href="/about"): li About
+    a.nav-link(href="/contact"): li Contact
