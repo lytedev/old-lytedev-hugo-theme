@@ -16,7 +16,7 @@ cfg =
 		dest: distDir + '/static/css/'
 	templates:
 		sources: sourceDir + '/templates/**/*.pug'
-		dest: distDir + '/'
+		dest: distDir + '/layouts/'
 	scripts:
 		sources: sourceDir + '/scripts/**/*.coffee'
 		dest: distDir + '/'
