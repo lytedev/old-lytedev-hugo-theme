@@ -12,13 +12,13 @@ distDir = path.resolve __dirname + '/'
 
 cfg =
 	css:
-		sources: sourceDir + '/styles/*.styl'
+		sources: sourceDir + '/styles/**/*.styl'
 		dest: distDir + '/'
 	templates:
-		sources: sourceDir + '/templates/*.pug'
+		sources: sourceDir + '/templates/**/*.pug'
 		dest: distDir + '/'
 	scripts:
-		sources: sourceDir + '/scripts/*.coffee'
+		sources: sourceDir + '/scripts/**/*.coffee'
 		dest: distDir + '/'
 	templateLocals:
 		sitename: "lytedev"
