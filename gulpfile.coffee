@@ -12,8 +12,8 @@ distDir = path.resolve __dirname + '/'
 
 cfg =
 	css:
-		sources: sourceDir + '/styles/**/*.styl'
-		dest: distDir + '/styles/'
+		sources: sourceDir + '/styles/main.styl'
+		dest: distDir + '/static/css/'
 	templates:
 		sources: sourceDir + '/templates/**/*.pug'
 		dest: distDir + '/'
