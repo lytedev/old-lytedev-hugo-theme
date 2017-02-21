@@ -13,7 +13,7 @@ distDir = path.resolve __dirname + '/'
 cfg =
 	css:
 		sources: sourceDir + '/styles/**/*.styl'
-		dest: distDir + '/'
+		dest: distDir + '/styles/'
 	templates:
 		sources: sourceDir + '/templates/**/*.pug'
 		dest: distDir + '/'
