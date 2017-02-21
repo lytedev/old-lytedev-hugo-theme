@@ -1,0 +1,8 @@
+# ignore vendor packages
+node_modules
+
+# ignore built files
+/index.html
+/templates
+/scripts
+/styles
