@@ -6,3 +6,5 @@ node_modules
 /templates
 /scripts
 /styles
+/layouts
+/static
